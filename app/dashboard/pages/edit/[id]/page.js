@@ -17,7 +17,7 @@ export default async function Edit({ params }) {
     
     return (
         <>
-            <h1>Edit {pageTitle}</h1>
+            <h1 className='text-center pb-2'>Edit {pageTitle}</h1>
             <EditForm formData={page} />
         </>
     )

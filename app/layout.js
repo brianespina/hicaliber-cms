@@ -17,8 +17,8 @@ export default async function RootLayout({ children }) {
     const session = await getServerSession(authOptions)
     return (
         <html lang="en">
-            <body className={inter.className + '  text-white'}>
-                <div className="container mx-auto">
+            <body className={inter.className}>
+                <div className="container mx-auto px-4">
                     <header className="flex justify-between py-2">
                         <div className="w-2/12 py-2">
                             <Image src={logo} alt="logo" />
